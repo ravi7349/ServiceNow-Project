@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f6e6ed883387210edc1f929feaad39b" label="Unit" max_length="40" name="x_1851076_traini_0_unit" type="collection">
+        <element choice="1" label="type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Declarative" sequence="1" value="declarative"/>
+                <element inactive_on_update="false" label="Programmatic" sequence="0" value="programmatic"/>
+            </choice>
+        </element>
+        <element label="name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
